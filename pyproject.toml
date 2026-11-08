@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kayla-url-redact"
+version = "0.1.0a1"
+description = "Conservative URL and credential-labelled value filtering for diagnostic records"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE", "NOTICE.md"]
+maintainers = [{name = "Joe-lgtm-dev"}]
+requires-python = ">=3.11"
+dependencies = []
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[project.urls]
+Repository = "https://github.com/Joe-lgtm-dev/kayla-url-redact"
+Issues = "https://github.com/Joe-lgtm-dev/kayla-url-redact/issues"
+Security = "https://github.com/Joe-lgtm-dev/kayla-url-redact/security/policy"
+
+[project.scripts]
+kayla-url-redact = "kayla_url_redact.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+kayla_url_redact = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers"
