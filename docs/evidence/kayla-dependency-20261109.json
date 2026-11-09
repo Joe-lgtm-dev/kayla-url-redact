@@ -1,0 +1,39 @@
+{
+  "schema": "maintainer-reported-first-party-dependency-v1",
+  "as_of": "2026-11-09",
+  "reported_dependent_repository_count": 1,
+  "count_source": "Maintainer disclosure, not GitHub dependency graph",
+  "maintainer": "Joe-lgtm-dev",
+  "consumer": "KAYLA (ltk-workbench)",
+  "consumer_visibility": "private",
+  "relationship": "same-maintainer first-party",
+  "integration_stage": "development branch; executed locally; no production deployment claimed",
+  "consumer_commit": "3157dae431c2fdd41ebdd998c4d3a014b600e813",
+  "consumer_tree": "83636a83ae3798e66bb65c745f6af15a57a2a27d",
+  "package_version": "0.1.0a1",
+  "package_origin": {
+    "archive_info": {
+      "hash": "sha256=bfacda7c4102d09dbdb0837b21c3d4e3e1ba8ea9f16ef9d877cd8ae6946b45e0",
+      "hashes": {
+        "sha256": "bfacda7c4102d09dbdb0837b21c3d4e3e1ba8ea9f16ef9d877cd8ae6946b45e0"
+      }
+    },
+    "url": "https://github.com/Joe-lgtm-dev/kayla-url-redact/releases/download/v0.1.0a1/kayla_url_redact-0.1.0a1-py3-none-any.whl"
+  },
+  "local_tests": {
+    "tests": 497,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "new_integration_tests": 25,
+  "source_export": "literal Git blobs",
+  "source_archive_sha256": "1903c383f97ee3eed69e5607d40939fddc38c8954a99f0c2e19e54ba8aa3b474",
+  "consumer_dependency_manifest_sha256": "86124fd2bf7a1bbb638e4393f1c49e8e94d4e46ddf5ce394c60d0bd3b95f2e19",
+  "original_private_receipt_sha256": "7348d2574f5c539b0ca667c44dc0b483f9aeaa695c9026812cfe005ef86452a0",
+  "private_junit_sha256": "3b00991b0a236c3a207627c6ea862ceb68e8aff56a1511cbf5035da3ff23c917",
+  "private_test_log_sha256": "d3b3c0444e37ac6afedb5a51250bdcc727380be06f638e666109e2a6abad226f",
+  "remote_consumer_ci_at_disclosure": "in_progress; not claimed as passed",
+  "independent_third_party_adoption_claimed": false,
+  "public_independent_verification_limit": "Consumer source and original test artifacts remain private; hashes permit comparison on separately authorized disclosure, not proof of their contents."
+}

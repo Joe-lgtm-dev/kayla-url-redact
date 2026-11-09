@@ -8,6 +8,9 @@ Version `0.1.0a1` is an alpha distributed through [GitHub prereleases](https://g
 
 ## Install
 
+For the disclosed first-party consumer and its verification scope, see
+[Project adoption and KAYLA dependency evidence](docs/ADOPTION.md).
+
 Clone the source repository, then create an isolated environment:
 
 ```console
